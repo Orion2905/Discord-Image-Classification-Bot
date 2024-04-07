@@ -6,7 +6,7 @@ from model import get_class
 
 intents = discord.Intents.default()
 intents.message_content = True
-# Inizializzazione del bot
+# Inizializzazione del bot di discord
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Lista di consigli su come non inquinare
